@@ -1,0 +1,50 @@
+.main{
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+}
+
+.child{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.child div{
+    min-width: 500px;
+}
+
+.text-bag{
+    text-align: center;
+    padding: 50px;
+    font-size: 1.8em;
+    font-weight: 600;
+    letter-spacing: 2px;
+}
+
+.button-bag{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px
+}
+
+.btn{
+    display: block;
+    margin: auto;
+    padding: 10px 30px;
+    color: #fff;
+    cursor: pointer;
+}
+
+.blue{
+    background-color: blue;
+}
+
+.red{
+    background-color: red;
+}
+
+.yellow{
+    background-color: yellow;
+}

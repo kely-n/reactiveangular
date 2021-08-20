@@ -1,0 +1,14 @@
+<!-- {{(color$ | async)?.name}} -->
+
+<div class="main">
+    <div class="child">
+        <div>
+            <div class="text-bag" [ngStyle]="{'background-color': (color$ | async)?.name}">Sample text</div>
+        </div>
+        <div class="button-bag">
+            <button class="btn blue" (click)="blueColoring()">Bleu</button>
+            <button class="btn red" (click)="redColoring()">Rouge</button>
+            <button class="btn yellow" (click)="deleteColoring()">Yellow</button>
+        </div>
+    </div>
+</div>
